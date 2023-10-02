@@ -467,3 +467,542 @@ Defensive or counter-offensive weapons should equally be about selecting the rig
 So you think CIG should survey every game package holder and have everyone fill out a form at point of sale for their health records and factor them into their game design plans? People die every day, sad, but a fact of life. The same could be said of any service offered to a customer. Build you a house you say, OK we'd better just knock a few bits of plywood together, you don't look well.
 
 It's not a cogent argument to base a project on, there's nothing they can reasonably do about it. They're in the same boat, Chris isn't a young buck either.
+
+Chris is doing the coding on this himself. He's writing code that allows each item to react individually rather than hit boxes. The hit registration will, if he's successful, be the surface of whatever item is struck.
+
+Ha ha funny. I guess that's why all the successful politicians, media stars and trillionaires with their own close protection teams are so universally 'disrespected'. Or that a draft usually has exemptions for 'essential professions'. Oppenheimer never saw blood dripping from the pointy end of a Japanese bayonet, and yet they make movies about him. Haven't you noticed it's generally the young and lower in status and education level that tend to go off to war?
+
+Hmm.. that old argument. What's that old saying? Something about the rubber meeting the road, or battle plans surviving contact?
+
+Star Citizen was never pitched as having full planets to roam around prior to 2015, and no fly to ground loading screens in fact Chris repeatedly said it wouldn't happen - yet here we are. Do we pick the changes we like and call 'pwommisezzz' on the one's we don't like? Is that it?
+
+The overall aim of the game always was about your character and your life in the verse, that you choose to live, with as much realism as they can put in.. you go to the gym, you get buff. I'm sure, because it's Chris, he'll put some limitations to stop mindless grinding, like no extra for crouching when there's no need to crouch. But yeah, there's exercise equipment in the game. I wonder if there'll be an obstacle course to run when you join the military? I hope so!
+
+Those who take their Squadron 42 character into the PU are already going to have a very different experience of the verse than those who don't.
+
+There'll be other choices for those who want to make them. I'm not going to be engaging in Roger Ramjet shenanigans much, I intend to be the sneaky-beaky James Bond / Ethan Hunt type who just happens to be a trillionaire hiring those with skillsets I don't particularly care to develop. Some want to be the head of their organisation, or some want to be an investigative journalist. This isn't like other games, there aren't any archaeologists in Tarkov, there aren't any Murray Cup Racing champions. Lewis Hamilton says he regularly pulls 8 or 9 G's in corners and he can do it because he has trained himself to do it because I suppose it's important to him. Me, I can get dizzy getting out of chair too fast but if you need medical attention I can guarantee you'd rather see me huffing and puffing round the corner than Lewis Hamilton.
+
+Having no improvement even though you may have done certain actions over and over for many years doesn't reflect reality, and no matter how much you improve your personal skill, if the character performs the same under the same conditions whether you spent time improving a skill or not isn't realistic, otherwise why would we have training for anything, motor skills count just as much as experience.
+
+The day they get easily affordable full haptic suits and 6DoF simulators for your gaming den they can make a game with no simulated physical skills improvement.
+
+We know why. Those early destructible objects used damage states, sprites and decals which are laborious to create per item at scale. They switched to developing Maelstrom, which will also feature deformation and penetration not just destruction. As usual for CIG they tried the standard industry method, didn't like the limitations and so decided to create a whole new system.
+
+What would be the point of laboriously creating damage states for thousands of in-game items when they know they are changing the whole damage system?
+
+Physics are run on the servers CPU and those items in the video presentation don't just break they react to force and for the majority of the time since that demo physics was thread locked. We know they've worked on parallelization in the last few years.
+
+Right now the servers are at max capacity in the PU... so you guessed it... what are we waiting for?
+
+You have to pick your battles and optimise for your future intentions. They test things not according to just when they've done work on something but also when it's appropriate to test it - and in which environment.
+
+Many talk about Star Citizen as though it was a released game with deficiencies and issues and the current state is the final intent - including you far too often. It isn't, and we know it isn't. Anyone who doesn't realise that just isn't keeping up.
+
+Maelstrom, try to remember that word, it uses UV's to give every substance and material real world material properties - including heat damage.
+
+This angst over iCache is misplaced. They wanted a system that made a hard disk stored state of entities in the game at regular intervals for Persistence. They made a first version, found that it didn't perform at scale as they hoped so they looked around for other solutions and found a better one, in another area of computer science, and adapted it. This is nothing new, it happens all the time in game development and indeed we only get to see it mentioned at all because CIG communicates details like this. They aren't going to rush to a camera every time they review something they plan for the game and we shouldn't expect them to. It's only assumed by those who hold a certain attitude that it somehow delayed the games' production - there is no evidence for that. All we need to know is whether the original intent for that system is still in place or not - It is... and it's in the game and working. If they hadn't changed the name and told us about it, you wouldn't have even noticed.
+
+Extrapolating from this misplaced, and frankly uninformed, iCache dramallama to 'Are they still working on Quantum, Quasar and virtual AI population' - assuming because they don't talk about it every few minutes it must be abandoned, isn't realistic, we know Chris' overall aim for the game is to have a dynamic population and economy so no matter what they will try to continue making that happen. The 'how' we leave to them because they are the experts we expect to eventually deliver those capabilities... and frankly since there's no other game developer out there even coming close to promising such features, where you gonna go?
+
+First - The role that iCache was to fulfill was never abandoned. It's upgraded successor that is fulfilling that role is in the game now.
+
+Second - The current game doesn't have all the necessary features to make (much) implementation of Quantum worthwhile (they have input limited features of it into the current build for certain commodity prices and availability), ergo it wouldn't help testing at scale. PES is still being 'bedded in' and it is the focus of current testing. What would be the point of adding more to the backend network traffic that's just going to complicate seeing the remaining issues with PES?
+
+When you see post after post: Fix the game! but where's this? Fix the game! but.. Add more of that of that stuff you promised to it! someone betrays the fact that they don't understand the process of feature development and testing in games in general, let alone in this hugely ambitious project. When a developer is doing R&D, especially while producing a live game environment, no-one with any real grasp of the subject should expect they will get every feature perfect on the very first try at that new, never been done before feature, it's not a realistic expectation.
+
+I know people don't like to hear it but what we have IS an alpha test build and a huge amount of the features have never be done, or done this way as a whole before. You'll get them saying.. 'It's been done before in this game or that game!..' but never in this type of game or in combination. CIG are solving problems that most game developers of this type of game insisted for decades couldn't be solved. There are plenty of other features in development that are not appropriate for the current Alpha build testing, the DNA system for example, we don't panic about those.
+
+This is buzzword FUD-spreading in my view, whether the OP knows it or not he's just soaking up bad information and repeating it because the emotion FUD-spreaders fuel and rely on is impatience, we all feel it at times, about many things.
+
+iCache! Quantum! SataBall! Sandworm! - why aren't the FUD spreaders asking about the Spectrum? It will have just as much impact on the players' game experience, certainly more than any sandworm found in the Leir system or a SataBall game that takes place in star systems not currently in the Alpha. Why not ask about the PU Murray Cup racing tournament, we've been waiting for that since the project started and aside from an Arena Commander update we know absolutely nothing about that? - because it's not part of their buzzword lexicon.
+
+There is absolutely no reason, and no evidence, to assume that Tony Zurovec's team has ceased work on anything they have previously shown - none. He's been working on it for years and they have talked about the improvements they have made over the time it has been developed.
+
+When they show a ship being made do we say.. Oh that's hardly revolutionary! No, because we know that it's just them saying that thing we were going to make for you to use - here it is. it's just another in game feature ticked off the list to complete.
+
+Player base building tools was something they said we would get eventually... and here they are showing us what they've made for us to use. It's as as simple as that. It isn't the new tool for them, it's the tool they said was going to be for us, they haven't finished the in game player useable UI yet (you heard him say 'Building Blocks' - that's the thing that makes in game UI's and HUD's) but we can see the functionality.
+
+The fact that the asset library they have used for these UGF's was not being fully used is bye-the-bye and there will be more variety coming is nice to know.
+
+They're adding player made bases functionality to the game... that's 'new' to us.
+
+[edit] - Wait.. did some people think that simple asset placement tool was something the game designers have been waiting for to be able to make the game? That's hilarious!
+
+As TMA-1 says, when you tie this into the functionality of the tractor beam and component placement whatever is in the library of assets that comes with the Rastar tool is up to you to use, he only showed is a UGF facility set of assets, there's a lot more it was a very long drop down list and he was only showing one category on that list. I know because I've visited their office back in 2016 and seen them using their version of the precedent for Rastar that they have multiple categories and sub-categories for their placeable asset library, far more than comes with the Skyrim Creation Kit for example, and that was back in 2016.
+
+If you have your own landing pad/cargo elevator/storage area assets to place this will allow something they have talked about for years - but infrequently - commodity trading. Buy when the market price is low, hold onto to it in storage, sell when the market price is high. Farming, including livestock and live animal transport is coming to the game. How do you know hen the market is favourable and where? Well that's coming.
+
+In the past they have also talked about how players will have their own mechanics (NPC's), upgrade and repair facilities.
+
+There are other things coming to the game that they used to talk about years ago - player org meeting places and the Spectrum for example.
+
+The Spectrum is the games in lore online communication platform (basically an internet) and source of information for players, it will have news shows and entertainment shows etc. If you check in the lore sections you'll see the names of some of those shows such as Showdown and Empire Report, they aren't just written blurb, they will be in the game, it's partly why they have worked on a tool to automate spoken speech to facial animation (just like FOIP) for NPC's, when you couple that with Render To Texture communications you can have 'live' shows generated from written scripts using a text to speech API which generates sound recordings without the need for voice actors. Something I've never seen in any other game was talked about in the directors commentary for the Squadron 42 vertical slice, they can have a 'live' simulation, fully rendered, of a location running even when no players are present in that location and stream it to any communication platform using Render To Texture. When you see the hologram call to the Stanton briefing room, listen to what Chris is saying in the directors commentary, that isn't just a pre-canned recording. Chris tells us, if the player goes to the location where that NPC is calling from they could photobomb that call.
+
+Players and NPC's will be able to upload and live stream to the Spectrum. It's what the Reliant MAKO News Van is for, it is even supposed to have it's own editing suite so it's likely we'll get a ground based editing suite too. We've seen them use the in game editing suite in the last Jax McCleary adventures series.
+
+When the Genesis Starliner was concepted it came with a whole set of brochures and lore, you'll be serving food and drinks to the passengers, but also pre-recorded entertainment. You'll have to buy those entertainment video series, and the NPC passengers will react to your service, including the entertainment. That same content will be available to players to view in their homes and bases, as well as aboard ship. As crazy as it sounds Star Citizen will have it's own version of Netflix and ESPN. Even crazier... they plan to have an NPC population who will pay attention to screens all around the game universe and react to the content they see on those screens. If you have a base you'll almost certainly want NPC's working for you at that location, if you don't provide what they need, what they want and what they prefer they won't want to work for you - they'll give you a bad rating as an employer.
+
+If you get to meet developers, particularly the senior developers, and you ask them about the NPC's they get a bit of a grin on their face. You might expect that hired NPC's will always do what you expect them to do, but they won't always do that. Some of them, particularly if they aren't happy with you, will scam you, set traps for you. You might hire an NPC to work at your base full of supplies and commodities and while you're away they'll call their friends, disable the security and clean you out. Setting up a base won't simply be a case of looking at your credits and deciding, I'll stick a base here cos i can afford it. It'l be a lot more involved than that.
+
+Again in the past, they said that the most valuable commodity players will be able to gather and trade is information, that incudes local knowledge. You'll have to find out which factions to align with, who can be trusted and who can't. In order to do this there will have to be some sort of scanning and mapping function open to players so that if you find 'something' you can either return to it or sell the scan data and coordinates to it. You'll need to pay attention to the reputation, history and goings on with the local population in your part of the verse. They plan to have a central information repository called the ARK which is in the Tayac system, you will buy and sell data to/from the ARK. But for things like trading commodities, factions and local knowledge you'll also get information about what is going on in the game universe and where from the Spectrum. You might ask yourself, what are other players going to stream to the Spectrum about - they can charge you credits for that content, mainly it will be local knowledge. Who are the main players in the area, who can you trust and who shouldn't you trust, where you can get things. If you just go blindly wandering into a system without checking out it first, you'll be at a significant disadvantage.
+
+If you are unfamiliar with a star system, especially if you're hauling valuable cargo, you can spend hours checking it out before you go, or maybe the best thing you could do is hire a local player guide. Someone who knows the system intimately and can guide you through it or around it with the least fuss, most efficiently and safest way they know. How does that local expert guide let everyone know about their service? Put it on the Spectrum. If you want to provide the premier guide service, pick some base locations very carefully around that system that your customers can use relatively safely.
+
+The Carrack has a command centre planned for the upper bridge, it's likely we'll have our own command centre facility for any bases we set up.
+
+We used to be able to custom place items we owned in our hangars, the tractor beam tech has superseded that form of customisation, we've also been told that we will be able hang pictures and screens on our walls, the pictures are nice for decoration sure, but it's the screens that will provide more useful functionality for gameplay since they are your window into the whole game universe, this is what Render To Texture for communications is about, we will have cameras on different platforms - drones, ships, vehicles etc, not just on the mobiGlas.
+
+What's coming is a far more populated and 'connected' game universe than what seems evident right now, so player bases won't be simply isolated locations from the game universe. Because of the missing features mentioned above it seems the game is just a 'jump in your ship and go see what you find' type of game, but in the future there will be more emphasis on preparing and planning before you jump into your cockpit seat.
+
+iirc they said that beacon will demark areas belonging to a player, the difference being that outside of UEE controlled areas it won't be protected by UEE security forces - but you'll still probably get the trespassing' notice. you can set up your own security to be alerted or respond much like turrets do in some AI bases. So beacons will likely be tied into the new trespass system.
+
+This a a feature of CIG communications, they tend to focus for a period of time on things that are connected by a common theme, although it's not easy to see that sometimes.
+
+I don't think anyone outside of the CIG development team has a full and precisely correct handle on the exact details of how all the component parts fit together, least of all me - I just try to put my perspective so that others can add theirs and between us we can come to a broader understanding, that's why we have (interesting) discussions amongst ourselves to try and make sense of it all. You said you had read some of my posts, in which case you'll know I don't get into back and forth arguments, I just put my case / opinion, let others put their case/opinion and let the readers decide.
+
+So what I'll do is let the Dev's speak for themselves and perhaps that will help clear up this contention about what the stages are for Pyro delivery and Server Meshing:
+
+It is my opinion that it is very easy for anyone to lose track of what they are saying because the video was badly edited, it interrupted the flow of important information with waffle, loss of track and interruptions that should have been edited out, and 'showing the dev's as human' pieces. I'm not saying they shouldn't show us those things, they just shouldn't put them between important pieces of communication.
+
+There is no simultaneity in this statement, all the language they are using is describing a sequential process, they aren't saying Pyro AND server meshing together, they specifically state they are separating the two goals in order to bring Pyro as the first step in the sequence. The Replication Layer is given as the only essential dependency for delivering Pyro Jump Gates because "when you actually do a jump to get to Pyro we have to transfer authority from the Stanton DGS to the Pyro DGS".. and.. "we're separating the actual jump gate stuff from the actual server meshing stuff". If Pyro came WITH server meshing then they wouldn't be 'separate' would they, so what's all the talk about separation for?
+
+Since this was a planning session where previous roadmaps and ideas were reworked, any information given prior has now been superseded - ie all that previous talk of needing server meshing to handle transfer of players between star systems. When they say 'we can assure Pyro delivery, while we worry about server meshing - who interprets that as we'll also deliver server meshing while we worry about how to do it? To my mind no-one would make such an assumption unless they are struggling to understand English.
+
+The exact details of what comes where, and the technicalities, those of us with the motivation to do it can join in the fun talking about that stuff, but the actual delivery of the features, the order in which they come because of dependencies is important to everyone - and the subject of this thread - not just the technically fascinated.
+
+I simply can't understand why anyone didn't watch that video and know:
+Pyro with the Jump Gates first with the separation of the Replication Layer to handle transfer of authority between DGS's.
+Server Meshing, even though they are still working on it in the meantime, comes later.
+
+You'll notice when he starts talking about this production method the use case scenario he envisions for this technique is for background, not for millimetre close up detail you can walk on, they look good from a distance. This type of technique is used for things like flight simulators where you aren't expected to be walking on the ground or even moving close to the ground except in manually made higher detail landing areas which are separate manually made 3D models placed in/on the planetary grid. Games like flight simulators use lower polygon meshes of blocks of flat (ie the grid is not curved around a sphere) terrain which are loaded in and out of memory as you fly across that terrain it gives the impression that you are flying around the planet as long as you have the hardware that can do it. This is called procedural production of 3D meshes, not in-game procedural generation. CIG dev's also use procedural production to make planetary 3D meshes.
+
+The other technique is to manually make all highly detailed terrain surfaces, this is possible for maps with relatively small amounts of area. If you're developing a game and can have artists work on a 16x16km or even 32x32km for 6 - 8 years you can pour a lot of detail into them up to the limits of the hardware that runs that game, this would be impractical if you are making many planet sized 3D meshes... it's too labour intensive and also it would be too punishing on your PC's resources to create that amount of detail at the scale of planetary horizon to planetary horizon. 3D editors (MAYA, 3D Max, Blender etc) used to create 3D meshes use something called tessellation to increase detail on the 3D mesh surface, the higher the detail the more tessellation you need which increases the RAM size of the 3D model produced because it has more generated polygons - higher detail, more RAM, you also needed higher detailed textures (bigger VRAM load) to load onto those polygons and then you can make use of heightmap detail to create the impression of even more close up detail on the 3D mesh.
+
+Some games, like the games Bethesda makes with Creation Engine - Skyrim V and the coming Starfield - use small hand made / procedurally produced terrain maps which they fit into a grid called cells. Imagine you are standing on a 2 dimensional honeycomb grid, the cell you are in is very detailed, the cells around that cell are less detailed - using lower LOD's, and so on out to distance.
+
+Each cell in (unmodded) Skyrim V had a maximum memory load size of 3.99GB for all assets in that player occupied cell, the main limitation with this technique is that each cell is manually made and takes time to load into memory (RAM) as you move from cell to cell, this is why games that use this type of technology while they look very detailed close up don't allow you to travel at speed over terrain and they generally have medieval themes because of it - which is why you won't be flying your ship over the planet surfaces in Starfield, they don't even plan to have land vehicles to drive. If you do move at speed, usually because some modder has given the game that capability what you get is a lot of 'popping in' of assets as the cells you leave behind are streamed out of RAM and the cells ahead are loaded into RAM.
+
+It's also why those types of games are generally single player games because rendering from multiple viewpoints (multiple cells) would be very expensive on RAM/VRAM loading. You would be seeing the other player in their cell standing in a sparsely populated less detailed area than the cell you were standing in, the other player thinks he's crouched down in dense grass and bushes because his cell is fully loaded on his machine, but you only see the grass and bushes in your cell, not his - of course he can't see your cells grass and bushes either only his grass and bushes. Star Citizen can be multiplayer because it doesn't have this problem, they don't use small cell RAM/VRAM loading.
+
+In his presentation about Starfield Todd Howard explained how you will pick a place to land on a moon or planet from orbit, there will then be a fly down to planet loading screen while the landing cell area is loaded into RAM and the space area is unloaded from RAM - he called it 'procedurally placed'. This was the same technique Chris had planned back in 2012 you can see it in old Star citizen videos. You can then roam on foot and the cells are loaded/unloaded around you as move across the terrain so that you have the impression it is a whole planet to free roam about - as long as you don't go too fast or too high.
+
+I'm sure that Bethesda has increased the cell memory load size and will take advantage of modern fast RAM, and cheaper larger sizes of RAM sticks as well as rapid access storage drives that will make for more detailed close in and overall terrain, but that single cell at a time RAM load time limitation still remains. This technique wouldn't work for Star Citizen where you can move at high speed, close to ground, in your highly detailed ships, all of the planet or moon 3D mesh is loaded into RAM at once and they use Object Container Streaming (rather than area streaming) and LOD's loaded into RAM to create detail as you all move around and every player sees exactly the same objects as you do.
+
+The technique that Star Citizen currently uses is to have heightmap generated terrain in the 3D editor create a 3D mesh to increase the speed of planetary production, which is saved to the hard drive of their servers downloaded to your game files and loaded into the game, and then overlay those with manually made separate 3D rock formations (Objects within Object Containers) which are scattered and blended into the heightmap terrain which 'on the fly via your GPU adds surface detail to the procedurally produced planetary mesh. As you can see from the above video they are thinking about methods to increase scale and one technique he mentions in the video is to have heightmaps on top of heightmaps to build scale, this still suffers from the vertical stretching problem if you try to take it too far - but they are working on that. They simply don't have the option to do what other games do and manually make vertical terrain at the scale and volume they need to produce content for a multiplayer game.
+
+The general rule is: You can have small and very detailed (single player) or you can have large and less detailed (multiplayer) this directly affects the type of gameplay you can engage in, you can't have both because of hardware limitations - but they are pushing the bounds of what they can do with very large and yet detailed multiplayer capable terrain.
+
+If you could define what you mean by exploration we could start from there since it is a broad term.
+
+It could mean just roaming around known places that you haven't been, you can 'explore' your back garden.
+
+If however you are referring to exploration in the sense of new discovery of places that are unmapped then it has dependencies:
+
+Jump point traversal and discovery - they have shown development work on Jump Points.
+
+Life support for long range travel - it's on the Roadmap
+
+Ships capable of mining / refining for refuelling, and refuelling ship to ship from ships with long range capability carrying fuel as cargo - already in the game and features of planned ships to come.
+
+Radar, mapping and navigation - improved long range detection, scanning and navigation are on the Roadmap. They have concepted ships specifically for this purpose.
+
+Wear and tear, aging and malfunctioning of ships and their component systems. Engineering gameplay - On the Roadmap and currently being implemented in the game.
+
+Unexplored systems, or unexplored parts of known star systems - some are on the Roadmap: Pyro, Nyx and Odin systems are currently being worked on. There are likely more for Squadron 42, we just don't know, the idea that Squadron 42 only includes the Odin system is frankly preposterous. One Roadmap entry of note is called 'Outer System', which involves building out the outer fringes of the Odin system, if Squadron 42 was a POI to POI purely 'go here do this' game experience then why build out a whole outer system for the Odin system, why not just the places they intend to send you to? If they are going to those lengths for what was an add on system to the main story line then it's likely they'll develop other Squadron 42 systems to the same extent.
+
+Content for unexplored systems such as flora, fauna and biomes including weather, space phenomena and their effects on ships systems, currently some are on the Roadmap others have been discussed in CIG video presentations (alien creatures and boids, solar flares and radiation, meteor storms) there are likely others for Squadron 42 etc we don't know about.
+
+There are more features we could also count as dependencies for exploration gameplay, such as EVA traversal and use of ropes / tractor beams and even storage and cargo management, even medical gameplay and ships to support it but the above demonstrates the scope of development required to enable exploration at minimum level at least.
+
+Talking about exploration gameplay specifically when all we have currently is the Stanton system - which is fully mapped according to lore - is a bit pointless, especially when the systems required for long range space traversal and mapping are still a work in progress. When you consider the above dependencies you realise they are talking about the capabilities for long range exploration all the time and a significant proportion of development resources are being devoted to it.
+
+Is it coming? Considering it was one of the core elements spoken of from the very inception of the project and the fact that the majority voted it their most desired form of gameplay, and they have sold concept ships specifically for long range exploration I'd say they are well aware it would be considered a vital feature of the game to come.
+
+Considering all the dependencies is it surprising that it is likely to be the one gameplay mechanic that will take the longest to develop? I haven't even mentioned all the backend systems currently being worked on required to make a multi-star system game.
+
+I realise that the above answer won't satisfy some people, but to say nothing is being done for exploration gameplay or that they don't talk about it is somewhat disingenuous.
+
+The more you post arrogantly telling everyone they are wrong the clearer it becomes that you seem to have problems understanding English and your technical understanding is limited - he's right, they clearly said the spawned damaged sections were placeholder.
+
+We know Maelstrom is the name they have given to their new model for deformation and destructibility and it doesn't involve spawning in of objects, it's real time deformation with physical properties controlled by the UV's.
+
+Perhaps you might consider dropping the attitude and developing a little humility.
+
+We have mag stripping / filling to come as well as weapon stripping and cleaning. I believe they have talked about different types of ballistic ammo.
+
+The camera being fixed to the players eye and actually looking down the gunsight was something Chris always wanted from the beginning, which of course meant they could allow players to hold and aim a weapon while looking around away from the direction of weapon aim, hence the combined first and third person rigging which was also always planned.
+
+Having weapons as object containers made up of separate entities allows for weapon customisations. Different stocks, barrels, sights, magazines etc. It creates variety without the need to create multiple whole new 3D models of weapons just because of a slight variation.
+
+The weapon interior being modelled taking up resources is not the huge drain on resources some seem to think it is because they have occlusion culling.
+
+The bullet physicalisation also allows for real bullet physics according to location: destructible object density, atmospheric density, temperature, humidity / precipitation, wind, gravity, planetary spin etc. There's an old movie with Rock Hudson called Ice Station Zebra. One of the scenes has a US Marine say that a bullet travels just as fast at the north pole as anywhere else and the British Secret Service agent explains to him why this isn't true because of the cold denser air at the north pole and the change in Coriolis effect at that latitude. We have player controlled weapon sighting planned for the game.
+
+Ship weapon convergence will likely be a feature players can control eventually because ship weapons will be used in a wide variety of environments.
+
+Chris Roberts himself is changing the way hit point registration works, he's making the bounding box for each 3D model conform to the actual model (if you know how 3D models are made you'll know what the bounding box is) and so the collision physics of projectiles and the physical properties of the target will determine the damage done to whatever they actually collide with, they have talked about penetration, deformation, ricochets and fragmentation. This means if you shoot through a gap in a fence it won't do what other games do and have the bullet hit an invisible barrier, you'll actually be able to shoot through the gap.
+
+We're still in Alpha with many things at tier 0 implementation. Talking about the years of development is not relevant because no-one has ever done things like this before, no-one knows how long it is all supposed to take this is R&D on the run at the coal face - and that's exactly why it had to be crowdfunded. Anyone who joined the project since Dec 23rd 2015 should know that this project will be in constant development, anyone who joined before that date should also know that CIG have put mechanisms in place to have an 'out' (even with a personal profit) and so it is up to each individual now to make a choice, ask yourself whether you want to support a project in continual development with constant iteration or leave. You can always come back later.
+
+Those who keep harping on about the game being in permanent alpha think they are the majority, you're not, just about everyone now knows exactly what this project is and that is part of the reason it is so successful because people can always hope and dream for more than they would get from other game projects. We don't get streamers abandoning other games and coming to Star Citizen because they are bored of the other games, they come because they know they'll never be told.. 'That's it, that's all you're getting'. There's always more to talk about and look forward to... no limits.
+
+Extrapolating from current performance limitations due to backend architecture is a little pointless... it's all going to change. Anyone who says they didn't want that level of detail and instead wanted the game earlier with less detail and features obviously weren't listening to their plans and thinking about the ramifications of what Chris and CIG said from the very beginning. None of it delayed production of the game because it was always the plan, it's the other stuff like spherical grid planets (and the knock on effects required to support them) and the backend architecture that have taken the time... and it was the community who demanded those features.
+
+Some just don't like change. Makes you wonder why they are here in the first place.
+
+There's no difference between CIG and any other game developer, it's just that with other games in development you never get to hear about those changes and the 'standard' game development cycle doesn't allow for much R&D while you build the game.
+
+The whole point of the project was to do things differently... and they are.
+
+I suggest people watch the video again, listen carefully. They originally planned to release Pyro with server meshing, they clearly state that is taking longer than expected and so Pyro (4.0) is to come before SM and they said they were hoping for 4.0 by the end of the year.
+
+It is to do with communication between the Hybrid layer running on the DGS and the persistence layer. There's nothing you can do.
+
+The hybrid layer is going to be replaced by the Replication Layer Gateway Service which won't run on DGS's.
+
+We very often get someone coming into the forums saying how they'd like to see features of a new engine demo in the game. Those of us who've been around awhile know that from tech demo to actual use in a game generally takes a few years. We also know to look for what they don't show you.
+
+PC's have finite resources, if you're using RAM or a CPU thread for one thing, it means you can't use that same thread or block of RAM for another thing at the same time. The video looks like a big open world, but is it really? Did you see them flying at speed over hundreds of kilometres per hour or did you see a fairly slow wheeled vehicle meandering around the same general area and what was in that area? Nothing but surface rock. No plants, trees, clouds, wildlife or even other vehicles. Did you notice there was a constant circular ridge on the horizon, just like you were in a big old crater? No sea with lapping waves reflecting the sky, or a flowing river and waterfall. No rain.
+
+Let's take that Unreal Engine 5 demo for example, lot's of plants (dense jungle in fact) and a high detailed vehicle driving around a very small area slowly - no distant horizon, no other vehicles in the vicinity, certainly no close up view of a vehicle zooming down a long road flanked by dense jungle. No wildlife.
+
+OK so what about the UE 5 demo showing the cave and the player(?) walking around and even flying over some of that terrain - Nanites! - notice there was a cave with high detailed statues? To a gamer that's a fascinating area to explore, to a game developer a cave is a chance to unload 'stuff' from RAM and load in more 'stuff', that's why the cave is so captivatingly detailed, so you don't run through it faster than they can load the next part into RAM. Notice the surrounding terrain wasn't nearly as detailed as the close up terrain? When the player exited the cave - much less detailed terrain to fly over. She wasn't flying close to the ground at around 10 feet or so.
+
+I have no doubt that CIG will have tracks in the surface, but in order to do it they would have to unburden some of the RAM / GPU / CPU load because there is always a trade off.. that's why multiplayer games are generally less detailed normally because when you have multiple viewpoints all demanding their own level of detail from each point that resource load is increased markedly, one vehicle leaving track marks on a barren rock surface is nice, 20 - 30 or 40 vehicles all leaving track marks that persist is stupendous!
+
+The day they release a massive open world you can fly over at 20 feet at 500m/s in a ship you can look out of through the windows and see 20 vehicles on the ground with windows onto detailed interiors and players running around in them, in any direction you care to look and see that same level of detail in a multiplayer game on UE 5 - at the same level of detail CIG can do now, yet alone what is to come, then I'll be impressed. I'm not holding my breath, it won't be for a good while. By the time it happens we'll have people come in the forum swooning over Unreal Engine 6 demo's.
+
+Could you link your source for "Sq42 has been rewritten twice now" please - it's news to me. I know they made additions to the original plan for Squadron 42 but that was, and must have been, before summer of 2015 because that was when all the motion capture and dialogue were done at Imaginarium in London, so the story was pretty much set in stone by the end of 2015 because if they had AAA rated actors coming in for rewrites and new mocap I'm pretty sure we would know about it - we do get to see the yearly financials and Andy Serkis' Imaginarium studios are not exactly cheap to hire.
+
+Dismissing StarEngine as merely 'CryEngine' is very disingenuous, even suggesting that StarEngine is just a re-badged Lumberyard is also disingenuous. The number of changes they have made are significant, and they are ongoing. Search Star Citizen Youtube for 'Teaching a character to walk' for example and you'll see a former CryTek R&D team senior team member who now works at Foundry 42 DE updating the engine to use the spherical planetary tech you don't find in either of the above engines mentioned. I'm fairly sure they don't have 64bit floating point precision, object container streaming, and they do use global illumination that Star Citizen / Squadron 42 doesn't use.
+
+Something few realise yet many experience in the game is that they changed the way player commands are executed, you input a command, instead of that command being executed locally on the game client that command goes up to the server (currently) or the Replication Layer eventually where the command is executed and the resultant 'change state' that command causes is then sent out to each connected player to see simultaneously (or as near as can be gotten given ping rates). The 'lag' people report in the game is not player ping lag, it's server runtime / backend network bandwidth related.
+
+If you watch the Squadron 42 vertical slice with directors commentary you'll hear Chris Roberts mention that they had to change the number of unique character animations supported by CryEngine / Lumberyard because they had blown past 32,000 in 2017 - and they haven't finished yet. For context the Skyrim Creation Kit which is a version of the Creation Engine toolkit they use to make Skyrim V and Fallout has a maximum of around 2,500 character animations.
+
+Neither the current version of CryEngine nor Lumberyard can have you sit in a parked vehicle aboard another ship moving in atmosphere, let alone fire a projectile out the first vehicle, through the interior of the second vehicle out into the atmosphere and into another ship and another vehicle inside that ship to shoot it's occupants... not even in single player.
+
+Someone did ask a question in the 'Ask A Dev' section of the forums about what changes had been made to the CryEngine /Lumberyard and the dev who responded listed them, he reached the word count limit and said that it was nowhere near an exhaustive list, just the ones he could think of at the time.
+
+You'd have to dig to find the information about the following they have said on camera they are planning:
+
+Destructible environments and objects in the game. With full persistence of that state of destruction.
+
+Real time deformation of objects in the game - ships that warp and buckle, bent wings and landing gear for example. They also showed a field full of plants that bent and twisted when a player walked through them.
+
+You're assuming Squadron 42 taking the majority of resources is somehow slowing the ATC rework, there's no evidence for that, in fact it's much more likely that the ATC rework is dependent on the changes to both persistence and server performance improvements - whether they come from server meshing or not. Other features that had work done in Squadron 42 first are coming to the PU soon™ presumably they don't have dependencies on the backend services to come.
+
+Absolutely, don't believe anything until you see it in the game, healthy skepticism is not a bad thing, however suggesting something is so for all to read - without evidence but merely on the assumption 'CIG bad' - is a different category. As a strategy it just won't work, we know that too. You can have any opinion you like but that shouldn't dominate your communication with the dev team or the community, there is a tried and tested method to get them to respond, and that definitely isn't it. It gives them the same impression as it does others in the community, you don't look like you want real answers, you're just here to vent your frustration. If you want them to treat you with respect, then behave respectfully and with self control.
+
+You have to ask the right questions without prefacing it with opinion, if it's a burning issue for a significant proportion of the community encourage them to ask the right questions calmly and respectfully, they will address it we have plenty of opportunities to ask questions - even in person, it might not be the answer you wished for. They have in the past.
+
+There are very good reasons to purchase multiple copies of Squadron 42.
+
+You are creating a unique character in Squadron 42 with their own history, it is not like other single player FPS games where the character you play is fixed and named, endless playthroughs because nothing changes. There will be choices to make during the campaign and those choices have to be unique to your character history, you can't go back and change your character history by trying all the choices - you will be able to replay the combat sections to improve your score, probably in the combat training simulator (It's the one they use for Arena Commander), that simulator performance does not affect your characters history arc. If you want to replay the whole campaign to try different choices you have to start with a brand new character from the very beginning. In the early days Chris talked about selling extra character slots to existing game owners.
+
+Each character you create can/will retire to the PU with all history, possessions and benefits they accrue in Squadron 42. From the perspective of the PU Squadron 42 will be the most massive Squadron that ever existed because there will be hundreds of thousands of Squadron members who all fought in the same place at the same time but each making a unique set of choices during that military service. Chris has done this (in a somewhat more limited fashion) in his other games. Wing Commander Prophecy, you can't change choices once made in the story elements and you can only replay combat sections of the game in the simulator. You can start the WCP game from the beginning with the same character, however, that wasn't his choice. Squadron 42 is not an 'on rails' game.
+
+There will be effects on your ex-military PU character depending on what you did during your military service... the PU AI will know you! Some may be very happy with you because of Squadron 42 and what you did, some may not like you at all because of what you did with that character. That's why Squadron 42 has to be single player even though it takes place in the exact same universe as the PU - as Jared puts it 'Squadron 42 is basically one huge dynamic mission set inside the PU', it's set in recent history.
+
+That's what Chris is referring to when he talks about going back into more exploits with YOUR characters that YOU created. You aren't paying to play a game, you're paying to create totally unique characters in this game universe and live out their lives, and that life includes Squadron 42. Your first experience of that 'alive' populated 'living breathing universe' will be in Squadron 42. The PU will likely remain unreleased until it is capable of taking all of that Squadron 42 universe because they are intimately connected.
+
+Suggesting that CIG should drop Squadron 42 only shows that the person making that remark has no idea what Squadron 42 is and how it relates to your characters' life in the PU. You can create and play a character in the PU who never served in the military, but that character will have a very different experience of the PU than the one who did do military service.
+
+Interesting, both combined. AI wingmen coming to the PU but also AI directing that fleet... that is what a player 'can do' and the AI crew can 'do anything the player can do'. Hmm...
+
+I'm not sure I'd use the word 'failed', but yes, they switched to pCache (persistence Cache) where the database is hierarchical not sequential.
+
+Why not 'failed'?
+The system they were using for iCache was sequential database lookups, but what does that mean exactly?
+
+As an example let's say Youtube are selling customer account information to a marketing agency who have a client that wants to sell cat litter. Youtube could supply a complete client list to the marketing agency who then run a search through that customer database for those who have cat videos in their subscribed feed. They start at Aardvarkian and go all the way through to Zwicky and each name that has the tag 'likes cat videos' is printed on a sequential list - all good they have a target marketing audience to blitz. However it's slow because you're not just searching the target, you're searching (and paying for!) non-target accounts too, fine if speed of look-ups is not essential.
+
+When the entity list in the PU was small sequential look-ups didn't take so much time but as the player base increased and the number of in-game entities increased sequential look-ups became just too slow.
+
+They went back to the world of customer databases and found a type which organised the database by hierarchical structure, no more requirement to sequential look-ups you can search by entity ID tag.
+
+An example - not meant to reflect actual in-practise methodology.
+Let's say they want to search the game space for all instances of a Custodian SMG. Instead of going through ID = Game universe, ID = planet - all planets ID = moon - all moons = ID = outpost - all outposts, all players, all local inventories and all shop inventories in a sequential top level (starting at Entity ID tag = game universe and down) search they can just search for ID-Custodian_SMG and they will only get back a list of all instances showing the stipulated level entity hierarchy that has that weapon as well as related information they stipulate according to hierarchy. Where they get a positive hit, all lower hierarchy information in the tree related to that ID is also collected.
+
+Because the database is now hierarchical they can further refine the search by stipulating a higher level in the hierarchy - ie search all player entity ID's with Custodian SMG attached. Much faster and it also fits very well with the hierarchical structure of nested object containers - it's a better fit and it's significantly faster doing look-ups because you're not searching where the thing you want to find isn't. This is what all professionals in any discipline are trained to do - plan, evaluate and collect data, adapt and re-plan. They found a better tool for the job in the face of a changing situation and implemented it well before persistence went live. This in no way automatically means the switch to pCache delayed anything, other work could continue.
+
+It's called creative thinking and adaptation to suit a changing environment - not failure.
+
+Exactly so, that is what Quantum does. Each character has a set of personality traits assigned, they have needs (both based on the game economy and their own preferences) and wants, faction affiliations (politics) and a given set of resources to begin with. They are run via a set of equations with somewhat probabilistic outcomes in this virtual simulation which can simulate millions of them on these Quantum simulation servers because they don't have the computational overhead of simulating the real physicalised game universe.
+
+They take 'change state' information from the running DGS's reporting to the persistence layer, and from Quasar (which inputs information about distribution of resources and the effects of them on the economy), and run these characters through the simulation at periodic intervals, thus the characters (as well as their locations in the game) change over time. They live a life and they die. Factions will fight each other and the resultant potential imbalances that brings, politics will go on, natural disasters will occur and all that will feed into the simulation.
+
+What CIG plan is a 'living breathing universe' that goes on whether there are players there to see it or not. It is the reason for the complex backend systems they have designed. The game will be a simulation of the universe which includes Quantum and Quasar, just like any actions taken by players the events of the simulation are passed through the Replication Layer Gateway Service to the persistence layer, each spinning up Dedicated Game Server will query the persistence layer for the up to the second state of that simulated always running game universe.
+
+Why is this important? - it's about hardware and how it works.
+Nothing can change if it exists merely as information on a hard drive, dynamic change can only happen when a part of the game universe is loaded in RAM and processes run on that data, they call this 'change state information', so if the only time that a game location were loaded into RAM was when it was loaded onto a DGS then periods when no players were present in an area would result in that area being static, unchanging. This is not a living breathing universe.
+
+It is exactly the same for AI characters all of whom will be unique, they can't 'do stuff' if they are only information held on a hard drive. The Quantum simulation is not merely an economy simulator, it runs a simulation of the whole game population. If you do watch the presentation by TZ he describes a character who is 'doing stuff', a pirate with his own history log. At some point that character is in a location which is being spun up on a DGS and so that simulated character is 'Instantiated' into the 'real game' as a game character where you could encounter him. When that DGS spins down that character goes back to the Quantum simulation to carry on his virtual life. The only reason to spin up DGS's with an area of the game physicalised is if there are players in that area to see it. If the game only changed things in areas where players were, and not where players aren't, then it wouldn't be a dynamic living breathing universe.
+
+The game universe will not only have players affecting the game universe it will, as others have described in limited fashion, have a whole host of AI driven NPC's. Some will be workers responding to a dynamic economy, some will be military responding to events and some will even be politicians, media stars and sports stars as well as an elite class of the rich and shameless. You create a unique character in this universe and the intent is that you will live a life in this dynamic universe. You could win the Murray Cup Racing Tournament, or at least participate in it. You could be a news reporter with a Reliant MAKO News Van who goes around the verse reporting to the Spectrum. This is nothing like EvE Online.
+
+What life you lead will be affected by:
+Whether or not you chose to bring your Squadron 42 character to the PU after military retirement. You can gain citizenship without starting Squadron 42, but you will never get ex-military status without starting Squadron 42.
+What actions you take and what affiliations with NPC political/criminal groups you engage in - your history log.
+What happens in the wider dynamic universe.
+
+Choosing not to start Squadron 42 and take that character into the PU will mean you start as a civilian and you have no military history log and property / expertise / or credentials (pilots license, security clearances etc) that goes with you into the PU. There is a misunderstanding for example that playing Squadron 42 to a certain level 'gives you' an F8C Lightning when you enter the PU - it doesn't, it gives you what Chris calls 'a badge' and Erin Roberts calls 'a licence' that allows you to own and operate the F8C Lightning legally within UEE controlled systems, you still have to pay for it but frontline military equipment capable of being a significant challenge to UEE security forces is limited by the UEE to those it trusts. You could obtain and operate an F8C illegally, but that runs the risk that it will be confiscated if you are caught by security forces.
+
+There is a story that will be ongoing for the Star Citizen universe, the PU starts it's timeline (and never stops running) when the game is finally live, the timeline starts shortly after the events of Squadron 42 (all epsiodes). Squadron 42 will be the first experience of being in that universe timeline for your character, it is set inside the Star Citizen universe. The UEE does have an Imperator you can vote for, it does have a Senate and you can vote for your local Senator, and it will have some form of local to each star systems' choice of governance elections. These are not 'background flavour' you can only read about by going to some menu - these characters will exist in the game universe. Unaligned star systems are basically the wild west.
+
+There are social strata in the Star Citizen / Squadron 42 universe. Characters, both player and NPC, will either be non-affiliated with the UEE - ie they have no legal status within the UEE. They can be civilians within the UEE or they can be citizens of the UEE. Each social strata will have an impact on the experience of players - for example civilians pay more federal tax than citizens, but they have other limitations. There are 3 ways to gain citizenship within the UEE:
+Earn it by gaining a good reputation with the UEE and it's security forces - this will take time.
+Buy it - it will be expensive.
+Join the military or security forces - the only way to do that is by starting Squadron 42. Ergo, you joined up.
+
+Citizenship can also be revoked by the UEE, for example if the character engages in criminal behaviour.
+
+As well as the 'federal' UEE there are local (state) law systems in each star system, as well as local law enforcement and taxes. Again, remember this is an always live universe that changes whether there are players around to see it happen or not because of that always running background universe simulation. Star Citizen will have 'game masters' who can trigger events in this universe and the consequences of those events will roll out across the game universe, also it has never been stated that the Vanduul war reached any final resolution, so we expect it to be ongoing in the PU too.
+
+In closing - you will have a character backstory, you can choose to have a military history log or merely a civilian history log when you enter the PU. The complex social strata of politics, wealth, media, sports, factions will also influence both each individual character and the wider game universe. Your navigation through this ever changing game universe with each character you create is totally up to you. You are but a player strutting your hour on the stage and then no more... until you create a new character.
+
+Arena Commander and the simpods it runs in was originally developed as a military training simulator according to the lore of the Star Citizen universe. Those training simpods, and thus Arena Commander, are an integral part of Squadron 42, they have been since the very beginning.
+
+Some of the language used by followers of the project, and to an extent CIG themselves, leads to misunderstandings about Squadron 42 - it is not a separate project. The events of Squadron 42 take place in the wider Star Citizen universe but in the recent past, as Jared described it ''Squadron 42 is basically one huge dynamic mission in the Star Citizen universe''.
+
+Another misunderstanding is that Squadron 42 is like other first person games where the chapters have cutscenes and menu screens between them, this is not the case. When you enter the Squadron 42 game the clock starts running and it doesn't jump around, you can pause it to exit the game but when you resume you'll be back at the same time point. When they talk of 'scenes' in the game they are talking about specific events that you will be witness to where the camera control focuses on the main story character at that point but you can break out of them.
+
+Also there is the Spectrum. It is like the internet, it is the means by which we are both informed and entertained. Some of the story elements will be delivered to screens within the game via the Spectrum, you won't have menu screens to read to find out what is going on and why things are happening... all that backstory, and much more, will be delivered via the Spectrum.
+
+The Replication Layer has never been described as 'difficult' but as the most complex part of the remaining integrated plan. It is the part that has never been done before, server meshing in various forms has been done before.
+
+Will it take longer than expected? Very probably, will they reassess the order in which the core pillars are implemented - they definitely have according to them.
+
+Of course if it weren't a live released alpha no-one would know about any of this because this type of R&D is usually done in secret and it is certainly not unknown for game developers to do such R&D and then abandon it. Because of the stated aims and goals given out by public statements we can have the benefit that such features are much less likely to be abandoned, merely that new and novel ways of achieving those goals will be sought, this agility is what comes from being funded by a community just as interested (in the main) in those end goals as the developers are.
+
+If someone was around pre-2016 and followed the project they would know that CIG have delivered a more expansive game and capabilities than was originally 'promised' - this is why the detractors keep yelling 'feature creep!'. you can't have it both ways, you can't accuse CIG of failing on promises while accusing them of massive scope creep. Make your mind up, which is it?
+
+If you look around the game space you'll see banking terminals these are to facilitate features they have mooted over the years:
+Item insurance
+Cargo insurance
+Ship insurance
+Bank loans
+Taxes related to place, status (non-citizens pay higher/more taxes) income and transfers of property on death
+
+Since they are all tied into an overall economy rather than being some feature that allows an activity to seem to take place then it is not appropriate to incorporate them into the game while it is still in Alpha - being wiped and with bugs that affect the overall economy.
+
+We have the character reset which has been refined to account for some of the issues we find in the Alpha and likely will get refined further. However it is a feature that is open to abuse so that care must be taken.
+
+Painful though it seems they are in the testing phase and 'our' loss is thus their gain because they can collect metrics and observe behaviours.
+
+You can't lose anything permanently that is attributed to your account until the game goes live and we must accept that the final live version is their primary concern as they work toward it, not how players feel today, but even so the possibility of loss has always been one of the tenets of the realism we can expect of the future finished product. What you lose and how you lose it will be up to you once all the systems are in place. There are mechanisms both now and to come in the future which allow replacement of items you have lost. A 'never lose a thing in your life' game is not in any way realistic, you will lose things - get used to the idea.
+
+A little add to that - one of the founding members of CIG and current vice-chairman (also a board member of Turbulent), a long time friend of Chris, legal counsel to Ascendant Pictures a movie production company owned by Chris is a lawyer specialising in the area of media and entertainment production. I would think if anybody knew about copyright issues in the field it would be him.
+
+Except that Squadron 42 is the Star Citizen universe, they are not separate entities as some seem to assume. There are no 'blackouts' on the Starmap. Everything that is in Squadron 42 comes to the PU.
+
+I agree and have stated so in other threads that they are too draconian in their imposition of a blackout on information regarding Squadron 42. If this were a standalone title being worked on all well and good about spoilers, but it isn't and never was.
+
+Not that it changes much I know but Chris did mention changes to Concierge in one of his last communications and it was also mentioned at recent-ish fan organised event in Germany.
+
+We did get the extra game packages for those that qualified and we did get the collectible Chairmans Club Handbook as an exclusive.
+
+I don't particularly care about Concierge rewards, but I do agree that when compared to referral rewards you have to raise an eyebrow. Those referral rewards do seem a tad over-generous, especially if you've spent signifi-bucks going through F5 trauma for years to get a Javelin and some recent convert from ED with all their existing viewers gets one in a matter of weeks for free (one guy went from zero to maxed referrals in 10 days!). As a marketing ploy it's genius, as a salute to those who have made a significant individual contribution - not so much.
+
+There's something I don't understand - several of the top recruiters have maxed out their rewards and instead of offering to use the referral code of another (perhaps for a contribution to their Youtube channel?) they just keep going. I know, I know gaming the system and all that, I'm just intrigued that no-one has to my knowledge, why not do what Star Citizen Reddit does and throw all your channel subscribers into a referral code lottery? I haven't even seen any of them say.. hey I'm maxed out I'm going to use the code for my video editor / moderators for a while. Youtubers generally get rewards through their Youtube channel already.
+
+Now if you consider guide rewards against referral rewards, there's a lot more hard graft in being a guide not least because they had to put in the time to learn it all in order to guide someone, and they don't have paying subscribers or Paypal donors.
+
+As I say, I don't really care about rewards but there should be some apparent balance, fairness. There's no escaping the notion that rewards seem much more about perceived benefit to CIG than they are about recognising any level of commitment or contribution to the project by individual backers.
+
+EDIT:
+With the benefit of hindsight I would propose a different system, not multiple reward pathways but just one tiered reward system based upon points.
+
+Tier 1 reward:
+$50 in your personal account contributed 1point, or x number of referrals 1 point, or x number of guide hours 1point, or x number of IC reports submitted and confirmed 1 point, or x number of subscriber months 1 point - or a combination of all.
+
+Once you reach a certain tier level / points level you get automatic entry to the Chairmans Club.
+
+I think we're into that Alpha WIP/Tier 0/cost vs benefit formula that so few seem to take account of or understand.
+
+If a bug or feature affects a minority (even if they are loud about it) then it's the long term goals of the project that take priority, and absolutely should. Resources are finite.
+
+When people make videos about this stuff, no matter which side of the fence they are on and especially when they extrapolate Arena Commander flight/fight into the PU they always forget to make one thing clear. In Arena Commander the aim is to score high with kills, in the PU the aim is to stay alive. How you approach your particular 'win condition' has its effects in the skills and tactics you should learn.
+
+I was invited by a friend, a well known Arena Commander veteran to join a team vs team fight. It was in the days of the small map Arena Commander. In the initial onrush I lost all weapons and 1 or 2 thrusters but half an hour later after watching them kill each other repeatedly and respawn I was still alive with no respawn because I wasn't playing their game. I had no interest in being top of the kill board. They kept saying 'How are you still alive!'
+
+In the past several years, with periods of random attack griefing at it's peak I haven't used my guns once and I always fly the stock loadout for each ship. I've been 'killed' about 3 or 4 times and each time it was because I wasn't concentrating (setting up controls etc) or not even in the cockpit seat. I don't count destruction from collision with invisible or random unavoidable objects. I've been pulled out of QT lot's of times and I always get away because I prepare before I start the QT.
+
+There are easy skills to learn that minimise the potential for being attacked, one of the main skills being to simply have the patience to consider all options rather than become fixated, and fairly easy skills to learn to escape and evade (at least long enough to call for assistance) so while I'm quite happy for the pew pew veterans to have their input taken into consideration by CIG I do bemoan this attitude that all 'non-fighters' are somehow only lambs to the slaughter in Star Citizen - they most certainly are not. Not including those skills in the 'easy to learn, hard to master' skillset requirement is in my view short-sighted and overly narrow focused. It's also worth noting, you can't kill anyone if you're already dead, and the fastest way to get dead is to have the attitude that you'd rather die than be slightly inconvenienced. This narrow focus on weapon balancing and the flight model gives people the wrong impression.
+
+I will watch what happens with master-modes with interest and I will have my input if they make escape and evade either significantly more difficult or near impossible.
+
+When you choose your ship and activity it is up to you to be aware of the potential weak points in your use strategy and to learn to ameliorate those risks as much as possible, leaping without looking first is the primary cause of death - not griefing, not elite light fighter pilots, not weaknesses in the flight model, not weapon imbalance.
+
+If I can survive, using every type of 'non-fighter' ship without firing a weapon for years exactly how is the 'light fighter meta' the dominant force in the PU game? Finding alternate strategies to 'Someone shot at me! I must put all my concentration and resources into shooting back!' is only going to get easier as the game gets more fleshed out.
+
+There are no 'cut-scenes' for Squadron 42. There are times during gameplay where the camera is focused on NPC actors or remote to view a scene in progress, but you can break out of it. There are Spectrum videos you will watch on in-game screens... but no cut-scenes.
+
+This is a value judgement, while there are those who may share your attitude it doesn't accurately reflect what is happening.
+
+A game is like a jigsaw puzzle, there's no way for anyone to make a full judgement on it until all the pieces are in.
+
+The second part of your argument is that it is taking too long. Again a value judgement but based upon what? How other games are made? The majority of games are made behind locked doors and no-one gets to even hear about them until they are in the feature complete stage. Even when they reveal a game they virtually never detail all the R&D that went into making the game engine that produced that game.
+
+Let's take Starfield as an example. They are using Creation Engine 2, a revised and hopefully updated version of Creation Engine which itself was based on the Gamebryo engine which by the time they wanted to make Skyrim V they felt was outdated. The Creation Engine began development around 2011.
+
+Bethesda don't, and likely won't, talk about any adjunct tools they have developed to make Starfield - so that is an unknown.
+
+Listening carefully to Todd Howard's presentation on Starfield I was listening to hear how they had updated Creation Engine because I have used it to make Skyrim V mods, I know it's capabilities and limitations (somewhat). The only new feature he mentioned, proud as he was of the work his team had done, was that now NPC's can use ladders. Yes that's definitely different to Skyrim V.
+
+You want 'a game' but seem oblivious to what needs to be done to actually make a game. The amount of R&D that CIG has done is quite frankly phenomenal in the time when compared to other game engines, they have tackled problems that other studios don't even dare to attempt because the plan is to make a game on a scale, and yet at an FPS level usually only for 'small map games' , that is what other game developers would call 'daunting'. The reason they can do that is because of the unique partnership they have made with a community to develop a funding model that otherwise would not support that amount of R&D.
+
+So how long should it take? No-one knows, not even CIG because it has never been done this way before. There is nothing to make a comparison to. The whole point of the project was to make the end goal paramount rather than producing a known product to satisfy a bunch of investors simply looking to make a profit.
+
+Star Citizen was from inception intended to be a co-partnership between game developers and their gaming community, something never attempted by any game developer and outside of a few niche indy projects it has never been done this way before.
+
+It's not finished yet, it's not even feature complete yet, indeed many of the tools they need to make it all a reality are still in development (refinement) and many many times over the last 10 years people have told them they would never be able to do the things they plan to do - yet they have done those things. Yes, sometimes it took longer than they, or we, hoped but the point is - they have done it. It's very hard to see how all the the things fit together to make that whole jigsaw puzzle a reality, especially if you have little to no inside knowledge of the way things are usually done.
+
+The game is not 'broken' because you can only apply such a term to finished released game. Star Citizen is still being built piece by piece with many pieces yet to go in and one of the main draws for many to this project is that we get to see all the processes that go into making this puzzle fit together, see how the sausage gets made.
+
+You don't have to stay to watch it, but whatever you decide you and anyone else is welcome to come and enjoy the fruits of all that labour, and community patience, when it does finally come together.
+
+If you want to be pedantic, then Starfield has been at the very least 12 years in development and it still doesn't have some of the capabilities that this 'broken alpha' has right now, and unless there are some truly heroic modders out there, it never will. Todd Howard in his Starfield presentation acknowledged the input (thus work) from years of people modding Bethesda games and we know some of those advances will feature in Starfield... they used them in their Skyrim V VR release as well.
+
+Me also, far too much favouritism. Lot's of 'maybe'.
+
+Yes. I also think they over-promised interaction with the community because they didn't realise how big it would become. Chris has stated as much several times.
+
+Yes. They were a lot more optimistic and happy to theory craft.
+
+How I feel about Chris is best explained from my own professional career.
+As a registered nurse working in a very busy Accident and Emergency department we would be rushed off our feet for 12 hours straight sometimes, no breaks and literally running from patient to patient meanwhile the waiting area was full of people who had waited hours to be seen, uncomfortable, worried and in the main just needing some reassurance that we would take care of them before they got to the stage it was all too much. They have no idea of the work being done behind closed doors. I can't clear a bed because I'm waiting on this X-Ray to be done, the other patients lab tests to come back for doctors review. They would come in and be snappy, or even downright angry with the nursing staff, of course we can't detail all the work and patients we'd seen in the hours they waited - professional confidentiality - so we offer sympathy, we understand how they feel but we can't do any more than we are doing, and offer platitudes along with a plan to fix their issue at a speed commensurate with the new people waiting behind them.
+
+I could take 10 or 15 minutes to get another nurse to look after my patients, quick handover of important details go out to the waiting area and offer reassurances we'll get to you as soon as we can - but in about 2 or 3 hours there's gonna be a new set of people waiting.
+
+This is the way I think it is with Chris, long hour days (Sandi has remarked on his habit of coding late into the night), pushing pushing pushing and not noticing the time pass with all of us in the waiting area getting impatient frustrated and even angry. He has the best of intentions and it is important to him to maintain his integrity with the community and do his 'duty'. In his mind I'm sure he feels if he just keeps going it will be soon that he can reveal all and silence the detractors, his head always full of the details and problems at hand...
+
+...but that clock just keeps on ticking and more and more new people are coming in soaking up the sour mood in the waiting area. Clever guys, 'influencers with experience' know you only have to plant a couple of noisy complainers in the waiting area and that sour mood spreads like wildfire.
+
+I remember we had interesting discussions about the plans for the game - Death of a Spaceman for example. Different worlds and biomes shown off by CIG, the stuff shown off in the Subscriber Vault now dismissed (by CIG staff) as merely 'concept art'. It's not an accident that one of the few polls by CIG overwhelmingly showed the majority of backers wanted to be explorers, because we spent all our time pawing over images of 'other worlds' prior to 2016 and all we had to fly in was Arena Commander. In the days when CIG had less than a 100th of the money they paid concept artists to make that stuff in the vault. Why? Why was that a priority? It was made when all there was was the Squadron 42 universe to come, but no-one can post discussion of any of it, or ask why the radio silence on it, because they'll get pounced on and thread-locked by those with the perma-negative jaded attitude and told it's old and abandoned - no it isn't - the story for Squadron 42 hasn't changed only expanded.
+
+Common sense tells you the story of Squadron 42 Ep 1, including all the locations in it, was written in stone by the end of 2015 when the mocap at the Imaginarium studios was wrapped. If they had main actors coming back for story change mocap WE'D KNOW ABOUT IT. ..and yet those who insist Chris is "The scope-creep king" mad on making a playable detailed movie is going to throw out large sections of all that expensive mocap and dialogue? Utter nonsense.
+
+I remember there was good humoured banter, particularly when the Concierge section of the forums opened.
+
+I remember how it was people in the community who insisted that money raised from selling ships and game packages should only go to making the game and CIG should offer a voluntary subscription for producing informative shows like Wingmans Hangar etc. Which they did. Of course that lead to a lot of discussion about subscriber perks.
+
+There was always new information to discuss and mull over and it never occurred to anyone that large portions of the game development would be behind a spoiler wall one day - that came around late 2016 / 2017 and I think that is the cause of a lot of peoples frustrations because the dreaming part was now essentially over a community of majority dreamer explorers corralled in one star system for years which they can't even dream themselves out of anymore, from then on it was merely patch watching and tool-splaining - it's what feeds the content hungry Youtubers 'Star Citizen News!' on a regular basis. Our promised universe shrunk to Stanton with a bit of Pyro and Nyx occasionally, and Odin in a blink and you'll miss it fashion. They used to talk about other star systems all the time, they showed Leir III at CitizenCon and never spoke of it again. The very first player traversable landing zone they showed was Terra Prime.
+
+Squadron 42 IS the bulk of the Star Citizen universe and the rather silly notion that some have fixed in their minds that this epic space war saga will be set in one or two star systems is simply incredulous, there would be uproar if that were the case and very well Chris knows it. He's on record saying the Squadron 42 story was expanded (from the original Kickstarter pitch) prior to 2015 and we know that is the case because the Odin system was a $4 Million dollar stretch goal 'extra system' long after the Kickstarter and he actually says in the directors commentary that the vertical slice is a side mission (an addition) not part of the main story arc - but it's no wonder, because CIG brought the curtain down... no more 'peeking under Chris Roberts skirt'.
+
+Going dead silent on Squadron 42 is in my estimation THE biggest mistake they have made it was Chris' arbitrary decision to go silent on Squadron 42 related content that killed discussion of exploration and you only have to look at the forum today to see it, it completely broke the faith in an open dialogue between CIG and the community for many veterans of the project, it absolutely doesn't 'treat us like producers' in any fashion. If Todd Howard can tell everyone who hasn't paid a penny for it to be developed how many star systems are in Starfield without it being a spoiler then I'm sure the one's who paid to have Squadron 42 made have an unassailable right to ask - How big is this Squadron 42 universe that has taken 10 years to make? They were quite happy giving teaser plot spoilers before 2017 (even if only for side missions) but basic metrics? We know the Vanduul War starts with the attack on Vega, we know we start as a rookie pilot and the only UEE Naval Flight Academy is in the Kilian system - it wouldn't be a shock to acknowledge they at least are in Squadron 42, what part of the plot would he be giving away that we don't already know? Do people honestly believe they've paid a linguist to create alien languages for worlds we'll never visit?
+
+I find it disappointing that Chris has got so deep into the weeds he's forgotten what this community is yearning for, surely it can't be beyond him to find ways to fire that imagination again without giving plot spoilers?
+
+What I don't remember prior to Spectrum is numerous troll threads sort-by-new snow-storming of the general section, brigading and clannish behaviour, weekends and holidays full of pure shit stirring. We can't discuss reasonable questions,let alone some good old fun theory crafting, because they just get derailed and trolled so most stopped trying - which frankly was the intent of the trolls. Moderation was rare and done voluntarily, with sensitivity, even on weekends and holidays! There was certainly favouritism shown by senior producers of CIG media content but when we pointed it out it stopped - you'll notice that when a question is read out now the name/handle of the person putting the question isn't read out - it used to be.
+
+Here's the irony, some of the biggest movers and shakers in the early backer community (the original dreamers) who were on average 29 times more likely to get their questions answered by Wingmans Hangar and 10FTC (we did the research and the maths) are now the biggest detractors organising the trolling of the project, and they are not fools, they organise well, they recruit very well and they know how to get a message across. Sandi Roberts called them 'snowflakes' on an episode of Astropub... and they were, they expected to be able to email company directors directly and even turn up at the offices unannounced. They're not gone, they just use alt accounts. What looks like a lot of upvotes for 'subject-less' negativity only appears so. They have no intention of getting answers, they never ask the right questions. They've made their minds up and now they just want to sour the milk for everyone else.
+
+That's not to say there aren't those who are bona fide unhappy with the length of time it is taking or about decisions CIG have taken, there are plenty. I'm not happy about them abandoning the core tenets of Death of a Spaceman or their change in attitude to communicating with the community post 2016, but those who feel that way tend to just quietly go away in the main. We've lost a lot of good characters who spent time in the forums helping others get up to speed with wit and humour and the new folks coming along have lost access to a lot of good historical knowledge about the project in a broad overview 'original intent of the project' fashion because of it... again that was intentional, and in my view it's the second mistake CIG have made.. allowing the community to be manipulated like that by a small group of disgruntled disaffected "snowflakes".
+
+You have to draw the line somewhere, hand-made bespoke everything would take far too long - it's not feasible.
+
+The lore of the Rest and Relax franchise is that they make modular stations 'on the cheap' so the OP is right, R&R edged out the competition in the UEE.
+
+There will be other style stations, the Pyro stations will be different to the Stanton system and of course we have the non-UEE alien systems to come.
+
+Extrapolating from the current Stanton system, which isn't even complete yet the Aaron Halo stations look totally different, is not going to give you the rest of the verse. While they'll keep the modularity they'll have style guides for other franchises, Stanton is just the first and they've filled it with what is quickest to make it functional.
+
+People think that what we see currently is all there is, I know this isn't true, they've done work that is behind locked 'spoiler' doors - they've been doing it for years. We only get to see and experience a fraction of what they've made.
+
+It strains my credulity that there are those who think, and even insist, that all the events of the Squadron 42 Ep 1 space saga happen in the Odin system - Seriously? Who on Earth would tolerate that after a decade of work on it? Can you imagine the uproar if it were so, a whole space war saga set in only one star system! Common sense tells us that absolutely cannot be the case.
+
+We know the Squadron 42 Ep 1 story was expanded prior to 2015 because:
+1. Chris said it was expanded.
+2. The Odin system was an addon system for the $4 Million stretch goal so it can't have been part of the original Squadron 42 story arc pitch. Chris actually says in the Squadron 42 vertical slice with directors commentary that the events in the Odin system are a side mission, not part of the main story arc.
+
+The whole Ep 1 story is about the Vanduul invasion of Vega - we are absolutely going to the Vega system. In the first post-kickstarter video showing events from Squadron 42 Captain McClaren speaks to the camera (the player) and says "I see you've applied to the flight academy again". The UEE Naval Flight Academy is in the Kilian system and we know from the vertical slice that we start as a rookie pilot. In the vertical slice video with directors commentary it shows the Stanton arriving in the Odin system and Chris says the events in the Odin system are about 1/3rd of the way into Squadron 42 Ep 1. It also takes place before the Vanduul attack on Vega.
+
+Ha ha.. OK I'll bite.
+
+Well to be fair we did give the USA computers, telephony, radar and the jet engine design - we also gave them a lot of British scientists who went off to join NASA (back here they called it 'the brain drain').. but ho hum.
+
+Will Star Citizen spend most of it's time in the repair shop? First it has to get out of the factory where it is being built and as I said the more prestigious the design the longer it takes.
+
+Players will log into the Replication Layer Gateway Service (see diagram) all commands and actions taken by players will then be passed from the RLGS to each DGS (the purple round smudges) where a virtual copy of your game physicalised avatar will be represented as responding to those command inputs - it's a replication of the simulation. You can clearly see from the diagram no player directly connects to a DGS (the purple thing labelled 'Server Node'), DGS's ONLY connect to the Replication Layer.
+
+When they talk about Server Meshing they are really talking about two separate components - one is player/entity authority handover and the other is controlling which parts of the game universe are loaded onto a DGS in a shard... both of these will eventually be run from the RLGS but they are starting with the player handover as they described in that ISC.
+
+The RLGS also simultaneously informs the Persistence Layer of change states caused by both players and backend services.
+
+Spinning up DGS's are controlled by the RLGS and told which parts of the game they are to spin up - information from the Persistence Layer comes through the RLGS to inform spinning up DGS's what state they should be in. Thus you have synchronised continuity not just of player actions but of all events in the game universe
+
+The always running Replication Layer has authority over all entities in the game universe shard, including players, the DGS's are 'meshed' through the Replication Layer that controls them, there is no duplication of locations within a shard. Is it all very complex? Yes they said it was complex in the ISC discussing it.
+
+The way you seem to think that server meshing involves all DGS's talking to each other would be a massive waste of bandwidth because each DGS on a shard would be duplicating unnecessary information to all other DGS's.
+
+You heard them say they are separating out the Replication Layer from the DGS's.. what more is there to say?
+
+2. The system in it's final state will not have loading screens, that is temporary.
+
+3. No extra load, players are logged into that system wherever they are.
+
+4. This shows you do not understand the final plan or understand fully what the Replication Layer Gateway Service is. The star systems are all loaded in the simulation running through the RLGS, which communicates with the persistence layer to synchronise all events in the game no matter where they are in a shard... even when DGS's are shut down.
+
+I forgot to explain why it is not server meshing they plan to implement with Pyro.
+
+When you log in to the game and go to the menu you are in a lobby which has verified your account and assets. The Jump Gate tunnel won't run on a DGS it will only run on your local game client. While you are in the tunnel you log out of your starting star system DGS back to the player authentication service and when you reach a certain part of the tunnel you'll be logged back into your destination star system DGS - the tunnel is a client side loading screen.
+
+...and I say you are in the wrong place if you have that mindset.
+
+You have come to the Rolls Royce showroom and demanded a Rolls Royce made to the same specifications, in the same time frame with a delivery date acceptable to you and for the same budget as a Toyota Micra.
+
+I would say... if you want a Toyota Micra, go to the Toyota showroom.
+
+You only think you represent the majority - you don't. You want the benefits of a crowdfunded 'no middle men' game, but you don't want the inconvenience that such a game project naturally incurs.
+
+
+The lore of the game and the Stanton system in particular is that Port Olisar is a major cargo/trading hub with a significant security presence in the system. Clearly the current PO doesn't fulfill either of those roles.
+
+When asked what they would do with the current Port Olisar the only answer they gave was that it would get a fitting end and would remain in some form - I'm guessing probably as a derelict like Gundo(?) above Daymar.
+
+Some of these claims are based on a misrepresentation - you only have to go to a planetary landing zone once per wipe, after you leave it is the players choice to go back. Don't like trams, trains or the like? Don't go back there.
+
+Once the game is finalised to the point there are no more wipes and we have full persistence a person may only visit a planetary landing zone once in their game lifetime.
+
+What is 'scope' in game development terms? Limitation, the sort of limits imposed by the money men.
+
+If you prefer those limits to be in place all well and good, this, frankly isn't the game project for you. You can't pick and choose the bits you do and don't like, it comes as a package.
+
+I haven't missed the point, you are arguing from the point of a fixed proposition, that of 'standard game design'... I'm telling you clearly this community didn't want 'standard' so any pre-conceived ideas based upon that standard are irrelevant.
+
+It's a block by block game, some blocks are in some are not. many of the limiting features we have in the alpha are because of the limitations of the CryEngine game engine. The argument about '10 years' is not relevant when you are dealing with an unknown.
+
+When the project was first pitched there was a very definite idea of what it would be, including the limitations of the then CryEngine 3 it was based upon. Chris knew certain elements of that game engine - namely 64bit precision - could be modified to achieve his stated goals, however when the community was demanding the BDSSE, and more importantly providing the will and funding to expand beyond that early vision there was a choice, stick to the planned timeline and budget (what would he do with the extra?) or use the the money he never expected and the will of the community to go beyond that original vision. He did ask what we wanted and the community overwhelming said to 'go go go!'.
+
+Any adult realist knows that when you ask for the moon you need a big budget and a long time to achieve that goal. This is not 'standard development' because the majority in the community didn't want standard development - it is an experiment in iterative live game design.
+
+We have been able to play in this alpha sandbox since December 23rd 2015 and it has been expanded upon regularly without cease since then, and unlike other games where you have to pay for expansion after expansion we as a community said we would provide the means for the 'never ending expansion' with CIG's assistance.
+
+There are those who make snide comments that our grandchildren will play this game - as though there is nothing to play today - BUT THAT IS EXACTLY THE POINT! We didn't want a limited game to play for a few months and move on to the next bubblegum release, we wanted something that would last and expand. That change in approach has certain requirements that other game projects don't have, patience being the main one. If someone has joined the project not understanding that, and consequently suffering buyers remorse, it is up to them to use the system as provided to exit, which they could easily do - at a substantial profit I might add, which CIG are perfectly fine with since they provided the means to do it.
+
+I watched Chris Roberts presentation at GamesCon in 2012, I watched for another year before deciding to support the project in a way I'd never support any other game project precisely because of that powerful community/developer partnership where gamers don't have to accept the limitations and deadlines imposed by the 'the suits' whose only interest is in making a profit from gamers. This project will remain 'in development' as long as there is a community with a will to enable it, and frankly it has been the most successful model of a game development partnership there has ever been.
+
+Is it 'finished'? Certainly not, hell no! That is not a bad thing, it is THE difference that the majority who understood what the project was all about were looking for... and we have it in spades - No limits!
+
+What is the point of Star Citizen? It is to prove that when you remove the money men with their self interest and instead work in partnership between gamers and a game developer amazing things become possible, things no-one else would even attempt. There is no way to quantify how long the impossible will take, which is why both the community and CIG know that, again unlike other games made in secret, we get to enjoy not only the game but our part in the design of that game and watch it grow. We get to say like no other game project - I was there man! I was a part of what made all this possible!
+
+It's called 'a pipeline' because at various stages many developers work on a feature according to their schedule agreed and prioritised by managers with an overall view of the project and how those features fit together. Just because 2 appear to be working on it now that doesn't mean that's all the team members who will feed into that feature. Some team members are specialists, some are generalists.
+
+The inventory system as it is now is a placeholder, it is planned that everything will be physicalised. No 'magic bags of holding' as Chris calls it.
+
+The same is true of the white beacon suit and explorer helmet, it is a placeholder. It's temporary and they will likely not have a free suit/helmet on respawn.
+
+Having watched the video I see that you have misunderstood what they said.
+
+You will be trespassing immediately on entering private property, there is no timer, they mentioned "if you step off the ship a few seconds later" only to say that if you leave the private property that trespasser status will be removed.
+
+While you are trespassing a player who owns the property or their invited party members can legally shoot you at any time.
+
+Extremely unlikely, current generation of consoles wouldn't have the grunt to support it and the control set is too complex.
+
+I have posited the notion that they may have module releases for Arena Commander on console. The company they gave ToW to develop mostly did work for Sony Entertainment Division.
+
+It seems like make work for the sake of it. I'd rather have a variety of ships to choose from. You know what people are going to do with this thing, you saw them even on the video make a monstrosity of a top heavy cargo lifter, it just doesn't look realistic.
+
