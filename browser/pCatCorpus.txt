@@ -294,3 +294,176 @@ This is my advice to anyone: If you get the opportunity go and ask them yourself
 
 It's been only 2 years since Tony Zurovec told everyone that virtual AI NPC's have a continuing history log attached to them, and that was the reason for having a running backend simulation of the game universe as well as the live game so that AI NPC's didn't just go into stasis when not spawned in on a DGS around players, why should players have any less in a game planned to have full persistence and character progression? What Chris, Erin and Tony have said consistently makes sense to me taking the aims of the project as a whole, what others might think makes less so.
 
+You may have served your time for a crime, but that crime remains on your history log. Anytime you interact with the system, ATC for example, it is recorded on your history log. If you are scanned by security forces it goes on your history log. NPC's and players can access certain parts of history logs depending on the level of access they have, this isn't just a faction rating. Bounty hunters and the Advocacy can track you via your history log. Anyone in the game can decide if they don't like what they see on your history log they can deny you access to places and services. They just don't want your type around here.
+
+When you play Squadron 42 you have a military history log, parts of that history go to your player log in the PU after you retire your character to the PU. When you undertake Advocacy missions currently in the PU you may notice Dully stipulates those with the requisite experience, of course right now it is assumed everyone has that experience, but once Squadron 42 comes out and the full reputation system goes into the PU, it will be limited to those with the relevant experience.
+
+Things on your history log will determine what missions you can take, places you can go and even what equipment you will be allowed to legally own and use in UEE controlled areas. If you don't at least start Squadron 42 with a character you enter the PU as a civilian not a citizen. That will affect things you can do in the game. There are other ways to get citizenship but they are not easy, if you have a history of criminality on your history log it will be even harder or near impossible to get citizenship. There is no other other way to get ex-military status without starting Squadron 42. There are factions, like the Advocacy, where having a military history will be a benefit, there are factions (even if you've never interacted with them) who will be very suspicious of your military history, they may even attack you on sight because of it.
+
+The UEE can revoke citizenship, for criminal history for example. When you leave the Klescher Rehab facility notice he (the guy on the tannoy system) calls you civilian, not citizen. There will be factions in the game who may not be criminal, but they just don't like the UEE, it is a militaristic empire run by an elite class (only Citizens can vote in UEE elections or stand for office, UEE citizens pay less tax to the UEE), and they see anyone wearing the uniform of the UEE as the jackboot of the UEE, they remember Anthony Tanaka.
+
+It did add new things to do for those with the imagination to figure them out.
+
+It did change the way we play, if you did a bunker mission before PES, if you went away and came back all the loot was gone, now it isn't. If you shot down a ship it de-spawned and you got nothing, now you can go loot it, and salvage it, whenever you're ready.
+
+You don't think salvage was a significant add to game play this year? I think many might disagree with you. "..nobody is allowed to make money in the PU without combat being involved.", that's only for the salvage missions or those who want to engage in PvP, you can salvage ships anytime you find them, no-one needs to know you're there.
+
+It does fit the sandbox genre, however where it goes beyond the sandbox MMO genre is the plan for the living breathing universe populated with active AI. As is usual for CIG they don't want to go with the standard form of AI and a faked background economy and lore they want to create a whole new type of AI and a universe that is self-sustaining and continually changing. Tony Zurovec explained it very well in his presentation, it's too expensive to keep tens of thousands of active goal orientated AI in live server memory and if they aren't in memory then they can't do anything - that is one of those hard facts of life you just can't ignore, data written on a hard drive doesn't change.
+
+You can't manually script tens of thousands of NPC's unless they are all doing easily repeatable predictable behaviours - this would be the standard approach. How many games have free roam NPC's using their own vehicles and using public transport? Working toward their own goals? The current NPC's are running on legacy CryEngine logic via Subsumption, that's why they are static in a location, it's the same type of scripted NPC logic you find in all other games. Ironic isn't it? They want Star Citizen to be made like other games, yet the features of those games technology that remain in Star Citizen are their biggest source of complaint.
+
+Sir Isaac Newton said "If I have seen further it is because I have stood on the shoulders of giants", while he was sarcastically mocking a rival scientist who was short in stature, it's still a truism, very little innovation comes all at once, it is a step by step process and hardly anyone could envision the changes Newton's work would have on the world, until it did. CIG are taking the step by step process.
+
+Innovation takes time, frustrating, annoying and at times even boring though it may be it's the innovation that people will notice and remember. We have been through the content drought doldrums before while they work on underlying tech, we have heard people say they would never achieve what they plan, they still say it about things that are actually in the game - but they did achieve those things.
+
+There's a reason other game studios don't do this type of stuff, venture capitalists, publishers and investors are even more susceptible to frustration, impatience and boredom than players.
+
+We paid for, and signed up for, a different approach to game making, this is it, and there's no one else trying it at this scope and scale.
+
+Those who use words like 'nothing', 'never', impossible' are only telling you the limit of their imagination. They aren't even being accurate about the current state of progress in many cases. They struggle to understand the difference between a locally stored game save on their hard drive giving the impression of persistence for a single player game and a massive cloud based game save of all the events in a whole game universe, and all the players in it.
+
+They say they have the right to criticise and complain, which they do, but if they can't be accurate in their assessment of progress or understand why it has to be this way how much validity should we give their assessment of progress? Read through the comments on this thread, some are clearly not up to speed either with the aims of the project or even the current progress of it. They certainly don't seem to understand the limitations of the games they keep touting as better examples.
+
+None of them have produced anything that benefits a single player, let alone advanced the player experience, and with such a negative attitude it's very unlikely they ever will. It's up to the individual who they choose to give their ear to - the builders building your house, or the guy at the gate telling them how to build a house when he hasn't seen the plans and has never so much as built a garden shed in his life.
+
+If it frustrates some, if they can't wrap their head around why it has to be this way then surely it's best to just go play other games and come back periodically to see progress. Take some time to learn about the limitations of other games so that when they do see that progress they can understand the significance of it. Some just want 'a' game, but some of us wanted more... judging by the success of the project I'd say those who wanted more seem to be in the driving seat, if someone doesn't like where it's going, or it's not going fast enough for them they can get off the bus and walk around for a while, they're more than welcome to come back further down the line because unlike other games your ticket is a lifetime ticket to ride even if they upgrade the service.
+
+Authority over all in game entities comes from the Replication Layer, they are working on that first. The Replication Layer was planned and designed exactly for the purpose of information sharing across DGS's and the Persistence Layer, as well as all other back end services.
+
+The idea that you wouldn't hear any sound in space is erroneous, it's akin to hearing 'There's no gravity in space' of course there is, if there weren't why would moons go around planets and planets go around a star?
+
+Why you would hear sound:
+
+1. There's atmosphere in your ship, unless you remove it. There is atmosphere inside your helmet. Your ears are never directly next to the vacuum of space, unless you're dead in which case you wouldn't hear anything anyway.
+
+2. When an explosion happens in space the explosive material expands as a gas and debris, inside the expanding gas shockwave is an 'atmosphere' which is reducing in density over time, it's the gasified molecules that the explosive was made of. Those expanding gas particles can/will impact the hull of a ship which causes vibration, that vibration is then passed to air in the ship and thus to your ears. In atmosphere the shockwave (sound wave) travels faster than the gas particles because being bigger those particles impact molecules in the air and lose momentum,, that momentum passes to the air molecules but in space the shockwave travels with the leading edge of the particles because those gas molecules aren't impacting anything. The shockwave will still impact any solid object and impart momentum to it, the amount depending on the density of particles inside the gas bubble and the cross-sectional area of the ship which is in a direct line of sight to those high velocity particles.
+
+3. Solid objects, including high velocity engine trail particles, impacting the hull of a ship or helmet of a player will cause soundwaves inside the ship or the helmet because each action has an equal and opposite reaction. The sound you hear is the collision of the electrons of the object and impactor.
+
+That is not to say this is exactly how it works in Star Citizen, because it is a game real world physics is simulated, but the idea that you wouldn't hear sound in space with explosions nearby, in the wash of an engine or with projectiles hitting things is not true while in a ship or in a helmet. You wouldn't hear the sound of objects / particles hitting anything else if separated by a vacuum, but you would hear them hitting anything you're inside of. What is unrealistic is having the sound travel at the same speed as the light, there should be a delay between seeing the explosion and hearing it, depending on how far away it is and the further away the more the sound should be muffled / lowered in frequency and volume.
+
+I guess you missed the CIG communications regarding building interiors and underground infrastructure.
+
+Also, they aren't waiting on Server Meshing to add Pyro.
+
+I think it's referring to the holographic control consoles. We've seen still images of an example of them. iirc more related to engineering and systems management gameplay.
+
+Heh heh.. got some cream? This burn is stinging mightily.
+
+You'll be the guy to ask, Stuart must be asleep. What are we going to talk to our therapists about this coming Monday week? 21st.
+
+I've checked all the national days CIG might be supporting, not much going on. Does anyone feel strongly about: National potato day, national mosquito day - a bit of a prickly subject. National Pecan pie day.. National soft ice cream day?
+
+I'm sure we'll think of something.
+
+Yep, the usual crowd in for their weekly echo-chamber shenannigins..
+
+On a completely unrelated note...
+
+Hey Stuart! How's Elite Dangerous coming along? Excited for the future? Haven't seen you in a long while, over here at least.
+
+Oh...! the drama was just too irresistible and dragged you away from your intense gameplay and all those hot new feature discussions! eh?
+
+Quick question, since you're hanging around with us for a bit - have they managed to get all two and half thousand of you lot onto one server yet? Do you find all those FDev community meet ups a bit samey like we do? Are all the old boys gonna be losing you to Starfield? Just think, an exciting new space game AND the opportunity for y'all to keep popping in and telling us how it should be done! Oh joy! Looking forward to it! Don't be a stranger.
+
+Which magazine are we looking out for? C'mon spill the beanz - Kotaku again? Please... tell me it's not...Forbes!.. I couldn't stand the excitement! You'll get old Montoya really going with that!
+
+Er.. just in case you hadn't noticed since you been away for a while an'all... it's ALL still here, going strong. How do they just keep on surviving all these dramas? You all work so hard!
+
+Darn it!
+
+No seriously.. welcome back to the land of the living, good to see ya old mate. For a while there I thought you might have given it all up!
+
+[edit] In my excitement to see old friends I forgot to post on topic. I'm a Space Marshal, not currently subscribing, couldn't care less about PTU access waves. Having fun stuffing popcorn and watching others wet their knickers about it all, a little lite relief from the more serious stuff never hurt anyone.
+
+They had one private investor in 2018 (a couple of years before they started regularly hitting the $100+ Million per year mark) who bought a minority 10% non-voting rights position for $46 Million, with an option to buy more shares (due to the company increasing in value), which strangely enough they took up... I wonder why if they were so anxious? $46 Million and no due diligence? Just as an aside to keep things in perspective, this same family business donated $107 million to South Africa's 'fight COVID' campaign in 2020, do they sound desperate for a few mil?
+
+Who is this mysterious investor? It's the Calder family, father Clive and son Keith Calder (Snoot Entertainment) net worth $5.5 Billion. Made their fortune with record label companies and media distribution. You might know a few of their artists on the Jive record label: Britney Spears, Backstreet Boys, NSYNC to name a few. They specialise in marketing and distribution, indeed Sandi Gardner said the money was specifically ear-marked for the Squadron 42 marketing campaign to come. (Some of us remember Chris saying that no pre-release backer funds would be spent on marketing.) A quote echoed in the Forbes magazine article about the investment.
+
+'Most' suggests multiple, there's only one and I don't see Forbes writing any articles about how the Calders feel about CIG buying into Turbulent and announcing it this year, do you? Or setting up bigger offices in the UK and Germany last year, and a new expanded office in Montreal before that. You can see how CIG are r.e.a.l.l.y struggling eh? If you actually bothered to look at CIG's financials you'd know they've already been paid a dividend on that investment, a tiny percentage of CIG's 2021 earnings. A sum significantly less than CIG's increased earnings for 2022 over 2021 (Around $26 Million increase). I wonder who's been helping them with all the marketing expertise?
+
+Further to your point about trust.
+
+When you catch someone in a lie, and you know they are pushing that lie frequently to try to make another party look bad, it's not hard to see who to trust.
+
+When they keep saying to their hangers-on... Go ask about <this feature> and why CIG just dropped it after all that work, pushing it on every platform they have and even making it into a running joke at the other party's expense guaranteed to get upvotes every time it's mentioned, and you know for a fact that they know that isn't the case. Every 5 minutes we get someone primed to come and ask about it or hammer with ridicule anyone who says it's going to be in the game, or they want to see it in the game, it's a constant talking point in the circles they run, yet they know exactly what happened to it.
+
+There isn't a better definition of FUD than deliberately misleading people, encouraging them to labour under a mis-apprehension for years when you've been holding onto good evidence to say the contrary. A simple line of text from the right person who frequents those circles would correct that mis-apprehension.
+
+Here's the thing. We are limited in what we can talk about on Spectrum. Those who want to spread FUD use that fact to mislead. Those who are mislead think they are doing 'the good work' they've been charged and 'ginned up' to do.
+
+Those who are responsible for spreading the FUD absolutely KNOW very well that the impression they are trying to give is not true because they have had access to sources of information for years that we can't talk about. I KNOW because I have seen some of those sources, I got them from them.
+
+Did they feature that information on their Youtube channel or Discord dedicated to giving out information to everyone - no they didn't - I wonder why?
+
+When they pass on information to Youtubers willing to spread unauthorised information do they include it all? No they don't. I wonder why?
+
+Do they use the lack of moderation on a weekend or Reddit to give out the information that disproves their FUD the way they use it to spread their FUD? No they don't. I wonder why.
+
+If you don't know what I'm talking about I suggest you go back to those whispering into your ear and ask them, why do you curate what information you know, have known, for years? Why don't you just give it all and let everyone decide?
+
+You've more chance to find out that way than noise posting on Spectrum... but don't bet on it.
+
+This is what I now KNOW - Squadron 42 E1 is going to be much better than I was expecting it to be. So... thanks.
+
+This old chestnut again... sigh.. it is not two games, it is one game universe. Squadron 42 takes place in the same game universe, all the places, factions and assets come to the PU... even some of the characters may come to the PU. They are cross-connected. You play the same character in both if you choose to retire your character to the PU and there will be rewards and missions that go with having played Squadron 42. Things you gain in Squadron 42 transfer with you to the PU. It will be the same with the next episodes of Squadron 42 to follow, indeed any story they decide to tell in that game universe.
+
+Why don't they have multiple strategies? The do, but ultimately they have to decide on one and focus on it, but be agile enough to re-plan - which they are. The Replication Layer is being separated from the DGS functions to facilitate moving forward with the plans for Pyro (and other star systems) while they work on Server Meshing. We have a released playable alpha even without Server Meshing.
+
+These ideas don't come out of the blue, they look at known technology and think about what would be best for the game in the long term, something other game development companies don't have the luxury of. They inherited most of the R&D team from CryTek and a lot of the innovation is due to their continued work. Thy have also recruited very experienced people from Ubisoft, Bethesda and Sony Entertainment Division. The change from iCache came about because they looked at wider uses of customer databases in the computer technology industry. CIG can do this sort of wider-looking innovation because they are not locked into using a particular feature-locked engine which had to be stipulated at the start to be able to raise investor capital.
+
+We will get building interiors and underground areas at a level of realism you don't find in games of this type because CIG don't lay off developers, and because there are no investors to say that we can't have them. Rockstar have taken hundreds of billions of dollars in sales of the GTA franchise and it's taken this long to get vehicle interiors fully modelled.
+
+There are fall-backs if something doesn't work out. Chris could release a better version of a Starfield-type game with just the updated CryEngine they have now. The innovation doesn't slow development as much as people think, it is ongoing while they build the game - which is huge by the way. When you know that a standard game developer lays off teams once their part of a game is done in cost-cutting exercises you realise why Star Citizen is different, they don't do that they allow existing teams to look at innovation while the other teams continue their work, this allows feed-back between teams that otherwise wouldn't happen allowing continual improvement.
+
+Yes, it's a different way of doing it, but we all wanted a different game experience, not just Chris Roberts. That's the whole point of this project and why it was directly funded by the players, not investors waiting for a return of profits that leech away funding for innovation.
+
+You're not buying a game, you're buying the right to create unique characters who live their lives in this whole game universe, the clock starts ticking on this game universe when Squadron 42 Episode One is released and it never stops until the game universe is abandoned, and that won't be for many many years. It will be continually added to and improved, even better you don't have to keep paying for those improvements the way you do with other game releases.
+
+Partially true but what you're alluding to... not necessarily.
+
+Squadron 42 E2 and E3 will re-use a good deal of the assets from E1. The engine and tools won't need to be remade, there won't need to be re-modelling of existing main actors, many ships / vehicles have already been made and work flows have been refined to name but a few. Most of the new teams are allocated work for the PU and it's clear they are continuing to recruit.
+
+I personally don't think that it is coincidence many new hires are coming from companies who have game products nearing completion, Bethesda for example. The advantage that CIG has over some companies is that they don't lay off teams when a game project goes through it's various phases because there is years worth of work still to come. In my estimation this would make CIG more attractive as a proposition to prospective recruits. I've heard this said by team members in person. They see more opportunity for advancement with CIG and that is a direct result of CIG having longer term plans.
+
+This is not at all true. Jared has spoken of this many times and even in the last SCL.
+
+Not only are they hiring teams for PU work, they are refining the tools and specifically designing tools to be easier to use for non-specialist game builders reducing the need for highly trained systems designers. As tools are finalised more and more team members will become proficient at using those tools.
+
+Core tech pillars won't have to be remade and once completed existing assets made after them won't need any form of rework to work with those features, we've seen this with the ship pipeline ships and vehicles are being produced in a more finished state. The time they have taken to make those tools will shorten development time for future assets. They haven't just made tools for current usage those tools are designed for future planned assets as well, they have told us many times that pipelines are more streamlined and assets are being produced at a faster and faster pace. The amount of R&D required will gradually reduce.
+
+Also we should not forget that work done on any version of Squadron 42 feeds into the PU. Those who insist that Squadron 42 assets will need years of work to come to the PU are frankly uninformed and most probably just deliberately spreading FUD. A great many assets that we don't know about and haven't seen are just waiting for core tech to be ready.
+
+It's been a long time since I bothered shooting at anyone in the game, it's not because I'm a pacifist, it's because while they're changing things around I prefer to concentrate on skills for things they don't change like escape and evasion. I realise that won't help them testing but frankly I'd rather leave that to others since I'm 61 and now reflexes and eyesight aren't what they used to be. I also don't particularly like the message that some put out that you're automatically locked into fighting just because someone attacks you, it isn't true and we shouldn't give people the impression that it is. I played Ace Combat for hundreds of hours, but when they brought out Skies Unknown with it's arcadey 'mash buttons to enter dogfight mode' it killed it for me because it forced a particular type of play and tactics.
+
+Having said that thinking about the actual game and it's differences between WWII style dogfighting a couple of things occur to me:
+
+Combat is in space and gravity's / atmospheres that are different to Earth.
+
+We have shields of varying abilities.
+
+We 'should' have computers with advanced capabilities.
+
+We have 6 degrees of freedom flight.
+
+We have in-lore manufacturers of microtechnology.
+
+My instinct is to do what @hcvertigo alludes to and view those making instructional videos and argument videos for changes referring to real world dogfighting, with dumbfire weapons, with scepticism.
+
+One of the reasons for Congressional hearings on UAP's is given as UAP appear to have 6 degrees of freedom in atmosphere flight capabilites at acceleration rates which appear to defy / negate G forces. So frankly taking conventional aerial dogfighting and trying to extrapolate from that doesn't even work in the present day, and their military experts know that well enough to be worried about it.
+
+In the game how would I do it?
+
+I'd try to be realistic and just accept the facts. I'd make weapons and weapon classes that seek to negate some of those capabilities. I'd have area weapons that can both get into the targets probable path (flak) and do area damage to shields / armour. With the ship platforms we have in the game I see no reason why we can't have flak type weapons, targetted area weapons, on medium ships and heavy fighters / bombers with intelligent ammunition. This 'all projectiles are dumbfire' is anachronistic. I should be able to aim in the general direction of a target and let the ammunition guide itself to the target once in range, ballistics with short duration self guiding directional capability, lower fire rate and reduced damage compared to similar sized dumbfire projectiles. No-one needs a lead or lag pip on an anti-tank Javelin, you only need to specify the target selection. I'm fairly sure that microtechnology has improved by the 29th century to be able to allow that.
+
+Directed energy weapons and dumbfire ballistics should be for precision strikes once you have sufficiently reduced your enemy's capability to resist attack and you can get in close enough to smell it's exhaust fumes. The aim is not to destroy but to remove their ability to fight back. In that case each weapon has a use case. If someone can fit all the same weapon on a ship and still come out victorious against a variety of targets the majority of the time, this in my view is neither realistic nor balanced. The weapon designers, defensive capability designers would have to be pretty unimaginative in the future if that were the case.
+
+A good pilot should know when and where to use the capabilities of what they have chosen to load out with. Fighters as first strike works great if your opponents have little to no shields and thin metal coatings over sensitive areas and limited maneuvering capabilities, but if they don't have those limitations then the battle order should be reconsidered even in small scale, small ship encounters. Land forces know, you pound the enemy from range and only once you have reduced their fighting capability do you send in the troops for more precision. This is in my estimation why they have gotten themselves locked into this 'keep them close' even when the combatants have all teeth and claws intact rather unrealistic situation that they don't impose on capital to capital ship and land forces offensive behaviour. It's not 29th century dogfighting in space, it's 2nd century pointy blade fighting.
+
+The play experience shouldn't be about fancy footwork, twitch and yank with all guns blazing it should be about intelligent platform and weapon selection and use of the tools you have at hand. In which case set your visual guides to suggest that. I wouldn't have lead and lag pips at all, I'd have the target reticle on what you choose to aim for and have a lock on indicator for dumbfire projectiles to tell you when the optimal time to fire is, then you use your ships capability and flight skills to get into the best position to give you the optimal position to fire with the weapon you selected to do the job. If you're using gimballed weapons put a converging indicator on helmet screen to show where your shots will go when you pull the trigger based upon what your ship is currently doing rather than trying to predict what the enemy is doing or going to do, leave that to the player. It is then purely skill based.
+
+Defensive or counter-offensive weapons should equally be about selecting the right tool for the job at the right time. I find it very odd that fighting in space with 6DoF flight should entail firing counter-offensive always directly to the rear, even modern aircraft don't do that. I should be able to fire counter-offensives ahead of me, or in any direction, and have to learn to time it so that I don't fly into them. There's no air resistance in space and variable resistance depending on atmospheric density, the ships velocity should add to the velocity of the projectiles. I should be able to do what any octopus and squid has learned to do, put up a temporary screen so that it becomes a game of attrition and cat and mouse.
+
+So you think CIG should survey every game package holder and have everyone fill out a form at point of sale for their health records and factor them into their game design plans? People die every day, sad, but a fact of life. The same could be said of any service offered to a customer. Build you a house you say, OK we'd better just knock a few bits of plywood together, you don't look well.
+
+It's not a cogent argument to base a project on, there's nothing they can reasonably do about it. They're in the same boat, Chris isn't a young buck either.
