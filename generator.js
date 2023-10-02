@@ -1,4 +1,4 @@
-import { generate } from "./generator/index.js";
+import { generate } from "./text-generator/generator/index.js";
 
 self.onmessage = ({ data: settings }) => {
   const result = generate(settings);
